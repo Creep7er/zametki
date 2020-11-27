@@ -64,13 +64,14 @@ int main(){
                 create_filee();
             break;
             case '4' :
-                system ("pause");
+                system("pause");
+                exit(0);
             break;    
             default  :
                 printf("No option selected\n");
                 break;
             }
-       scanf("%c", &cha);
-    }while (y = cha);
+        scanf("%s", &v);
+    }while (y = ch);
 return 0;
 }
