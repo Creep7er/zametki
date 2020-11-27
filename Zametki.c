@@ -46,7 +46,7 @@ int main(){
     char v;
     char y;
     do {
-        printf("\nWelcome to Parrot Notes!\n What do you want to do?\n");
+        printf("Welcome to Parrot Notes!\n What do you want to do?\n");
         printf("1. Read file\n");
         printf("2. Overwrite file\n");
         printf("3. Create file\n");
