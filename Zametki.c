@@ -14,7 +14,7 @@ void read_file(){
     fclose(file);
 };
 
-void owerwrote(){
+void overwrite(){
     char wrote[666];
     char name_file[15];
     printf("What file do you want to open?\n");
@@ -58,7 +58,7 @@ int main(){
             break;
                 
             case '2':
-                owerwrote();
+                overwrite();
             break;
             case '3' :
                 create_filee();
